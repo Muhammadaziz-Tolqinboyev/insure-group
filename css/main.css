@@ -1,0 +1,262 @@
+/* Karla 400 700
+DM Serif Display 400 */
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/karla-v31-latin-regular.woff2') format('woff2'), 
+       url('../fonts/karla-v31-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/karla-v31-latin-700.woff2') format('woff2'), 
+       url('../fonts/karla-v31-latin-700.woff') format('woff'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dm-serif-display-v15-latin-regular.woff2') format('woff2'),
+       url('../fonts/dm-serif-display-v15-latin-regular.woff') format('woff');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Karla", "Arial", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+img {
+	display: block;
+}
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0)
+}
+
+.list-styled {
+	display: flex;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 21px;
+	padding-bottom: 19px;
+}
+
+.header-inner-rigth {
+	display: flex;
+	align-items: center;
+}
+
+.nav-item {
+	margin-right: 26px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #837d88;
+	letter-spacing: 1.5px;
+}
+
+.nav-item:hover {
+	color: #2c2830;
+}
+
+.view-link {
+	margin-left: 6px;
+	padding: 13px 29px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #2c2830;
+	letter-spacing: 1.5px;
+	text-decoration-line: none;
+	border: 1.5px solid #2c2830;
+	background-color: #fff;
+	transition: all 0.3s linear;
+}
+
+.view-link:hover {
+	color: #fff;
+	background-color: #2C2830;
+}
+
+.hero {
+	background-color: #2d2641;
+	background-image: url(../images/template-image.svg);
+	background-repeat: no-repeat;
+	background-position: calc(50% + 600px) calc(50% - 150px);
+}
+
+.hero-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-pic {
+	position: relative;
+	top: 155px;
+}
+
+.line {
+	display: inline-block;
+	width: 150px;
+	height: 1px;
+	background-color: #fff;
+}
+
+.text-box {
+	width: 540px;
+}
+
+.hero-title {
+	margin-top: 63px;
+	margin-bottom: 16px;
+	font-family: "DM Serif Display", "Times New Roman", serif;
+	font-size: 72px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 64px; 
+	letter-spacing: -1px;
+}
+
+.hero-desc {
+	margin-top: 0;
+	margin-bottom: 24px;
+	color: #fff;
+	line-height: 26px; 
+}
+
+.hero-link {
+	display: inline-block;
+	padding: 13px 29px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration-line: none;
+	letter-spacing: 1.5px;
+	border: 1.5px solid #fff;
+}
+
+.hero-link:hover {
+	color: #2c2830;
+	background-color: #fff;
+}
+
+.services {
+	padding-top: 305px;
+}
+
+.servisec-line {
+	display: inline-block;
+	width: 150px;
+	height: 1px;
+	background-color: #c396c6;
+}
+
+.servisec-title {
+	margin-top: 63px;
+	font-family: "DM Serif Display", "Times New Roman", serif;
+	font-size: 72px;
+	font-weight: 400;
+	color: #2c2830;
+	line-height: 64px;
+	letter-spacing: -1px;
+}
+
+.servisec-list {
+	display: flex; 
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.servisec-item {
+	width: 364px;
+	padding-top: 150px;
+}
+
+.site-footer {
+	background-color: #fafafa;
+}
+
+.footer-start {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 64px;
+	padding-bottom: 33px;
+	border-bottom:1px solid #dadada;
+}
+
+.social-item {
+	margin-left: 16px;
+}
+
+.footer-end {
+	display: flex;
+	margin-right: 30px;
+	padding-top: 48px;
+	padding-bottom: 64px;
+}
+
+.footer-info-items {
+	width: 255px;
+	height: 159px;
+}
+
+.footer-list {
+	display: block;
+}
+
+.items-title {
+	display: flex;
+	margin-bottom: 36px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #837d88;
+	line-height: normal;
+	letter-spacing: 1.5px;
+}
+
+.list-item {
+	margin-bottom: 16px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #2d2641;
+	letter-spacing: 1.5px;
+}
+
+.list-item:hover {
+	text-decoration-line: underline;
+}
+
